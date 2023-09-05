@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu_navegacao{
+    display: flex;
+    justify-content: space-around;
+    background-color: #DEEAB9;
+    align-items: center;
+}
+
+ul, li{
+    display: inline-block;
+    margin-left: 24px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+.img_logo{
+    width: 70px;
+    height: 70px;
+}
+
+.conteudo_principal{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+h1, h2, h3{
+    font-family: Lato;
+}
+
+.h2{
+    font-weight: 300;
+    color: white;
+}
+
+h3{
+    background-color: #006633;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 5px 0 5px;
+    color: white;
+}
+
+.conteudo_principal {
+    text-align: center;
+    margin-bottom: 208px;
+}
+
+.title{
+    color: #4fa7b0;
+    width: auto;
+    height: 0;
+    margin: -207px 0;
+    margin-top: 4px;
+    margin-left: 209px;
+    font-size: Lato;
+    font-weight: 150;
+    border-radius: 4px;
+}
+
+.video-container {
+    display: flex; /* Use flexbox para alinhar os vídeos na mesma linha */
+    justify-content: center; /* Centralize os vídeos horizontalmente */
+}
+
+video {
+    width: 50%;
+    max-width: 28%;
+    margin: 245px 0px;
+    transform: scale(0.8);
+}
+
+/* Estilo para o conteúdo principal */
+.conteudo_principal {
+    text-align: center; /* Centralize o texto e a imagem principal */
+}
+
+footer {
+    background-color: #006633;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    height: 52px;
+}
+
+/* Estilo para o conteúdo dentro do footer */
+.footer-content {
+    max-width: 800px; /* Defina a largura máxima do conteúdo do footer */
+    margin: 10px auto; /* Centralize o conteúdo horizontalmente */
+}
